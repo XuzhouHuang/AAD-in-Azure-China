@@ -60,9 +60,9 @@ Leverage [AAD Connect Documenter](https://github.com/Microsoft/AADConnectConfigD
 
 4. Run .cmd file and you’ll get the comparison report under folder “Report”. Check the html file and correct the difference on the new AAD Connect if there’s any.
 
-  ![image](https://user-images.githubusercontent.com/96280581/159451187-807a2ea8-def1-41fc-bac4-258454fd75a3.png)
+   ![image](https://user-images.githubusercontent.com/96280581/159451187-807a2ea8-def1-41fc-bac4-258454fd75a3.png)
 
-  ![image](https://user-images.githubusercontent.com/96280581/159451209-d2426441-8f3a-42ed-8b6b-7f14b957424d.png)
+   ![image](https://user-images.githubusercontent.com/96280581/159451209-d2426441-8f3a-42ed-8b6b-7f14b957424d.png)
 
 
 ## Step 4
