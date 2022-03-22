@@ -10,7 +10,7 @@ https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-c
 
 https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-version-history#20280
 
-Please also be noted that AAD Connect v2 are *NOT* supported to install on Windows server 2008r2/2012/2012r2. This means you must upgrade Windows server before upgrading AAD Connect in place or build new Windows server directly.
+Please also be noted that AAD Connect v2 are *NOT* supported to install on Windows server 2008R2/2012/2012R2. This means you must upgrade Windows server before upgrading AAD Connect in place or build new Windows server directly.
  
 ![image](https://user-images.githubusercontent.com/96280581/159448457-95c1803b-20dc-42e7-8be6-a4c4c49e3a54.png)
 
