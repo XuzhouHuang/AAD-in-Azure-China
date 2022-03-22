@@ -4,7 +4,7 @@ On August 31, 2022, all 1.x versions of Azure AD Connect will be retired because
 
 You can upgrade your Azure AD Connect server from all supported versions with the latest versions:
 
-`Reference link` : 
+`Reference link` 
 
 https://docs.microsoft.com/en-us/azure/active-directory/hybrid/whatis-azure-ad-connect-v2
 
