@@ -1,6 +1,4 @@
-# AAD-Study
-
-Menu
+# Menu
 
 ## AAD Synchronization
 
