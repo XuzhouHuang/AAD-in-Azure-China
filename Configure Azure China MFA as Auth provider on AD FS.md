@@ -1,4 +1,4 @@
-# Configure Azure China MFA as MFA provider on AD FS
+# Configure Azure China MFA as Auth provider on AD FS
 
 ## Step 1 - Generate a certificate for Azure MFA on each AD FS server
 
