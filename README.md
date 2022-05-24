@@ -11,3 +11,5 @@
 - [Configure Azure China MFA as Auth provider on AD FS](https://github.com/Xuzhou-Huang/AAD-Study/blob/main/Configure%20Azure%20China%20MFA%20as%20Auth%20provider%20on%20AD%20FS.md)
 
 ## AAD Account Management
+
+- [Configure Cross-Cloud B2B between Azure China and Azure Commercial](https://github.com/Xuzhou-Huang/AAD-Study/blob/main/Configure%20Cross-Cloud%20B2B%20between%20Azure%20China%20and%20Azure%20Commercial.md)
