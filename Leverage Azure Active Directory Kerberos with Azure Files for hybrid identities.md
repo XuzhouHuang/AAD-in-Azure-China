@@ -1,5 +1,11 @@
 # Leverage Azure Active Directory Kerberos with Azure Files for hybrid identities
 
+## Benefits
+
++ End users can access Azure file shares over the internet without requiring a line-of-sight to domain controllers from hybrid Azure AD-joined and Azure AD-joined VMs.
++ For AADJ AVD Session host, it's supported to work with fslogix for user profile roaming.
+
+
 ## Requirements
 
 + The user identities must be hybrid identities, managed in Active Directory (which means AD DS and AAD Connect is required).
@@ -11,13 +17,6 @@
    * Windows 10 Enterprise single or multi-session, versions 2004 or later with the latest cumulative updates installed, especially the KB5007253 - 2021-11 Cumulative Update Preview for Windows 10.
    * Windows Server, version 2022 with the latest cumulative updates installed, especially the KB5007254 - 2021-11 Cumulative Update Preview for Microsoft server operating system version 21H2.
 
-## Benefits
-
-+ End users can access Azure file shares over the internet without requiring a line-of-sight to domain controllers from hybrid Azure AD-joined and Azure AD-joined VMs
-
-### Note
-
-> Your Azure Storage account can't authenticate with both Azure AD and a second method like AD DS or Azure AD DS. You can only use one authentication method. If you've already chosen another authentication method for your storage account, you must disable it before enabling Azure AD Kerberos.
 
 ## Lab Guidence
 
@@ -32,6 +31,10 @@
   ![image](https://user-images.githubusercontent.com/96280581/188256244-47a7a747-db34-44e2-8a58-819013fb2695.png)
 
 ### Step 3 - Create Storage account for Fslogix and Enable AAD Kerberos Authentication
+
+  #### Note
+
+  > Your Azure Storage account can't authenticate with both Azure AD and a second method like AD DS or Azure AD DS. You can only use one authentication method. If you've already chosen another authentication method for your storage account, you must disable it before enabling Azure AD Kerberos.
 
    ```PowerShell
    $domainInformation = Get-ADDomain
