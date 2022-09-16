@@ -9,7 +9,7 @@
 ## Requirements
 
 + The user identities must be hybrid identities, managed in Active Directory (which means AD DS and AAD Connect is required).
-+ Configuring access control lists (ACLs) and permissions might require line-of-sight to the domain controller.
++ Configuring access control lists (ACLs) and permissions might require line-of-sight to the domain controller. ( Configure file-level permissions through Windows File Explorer instead).
 + The clients connecting to Azure Files need to be Azure AD-joined clients (or hybrid Azure AD-joined).
 + Multi-factor authentication (MFA) on the Azure AD app representing the storage account must be disabled.
 + Client OS must be the following versions:
