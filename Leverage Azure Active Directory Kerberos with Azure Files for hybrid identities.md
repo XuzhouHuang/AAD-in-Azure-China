@@ -43,6 +43,13 @@
    ```
    ![image](https://user-images.githubusercontent.com/96280581/188254521-577b9d7e-e189-48be-8d4a-c2ad959cdd7b.png)
    
+   This is required if the client doesn't have line-of-sight to the on-premises AD (configure with directory and file-level permissions icacls), you can configure directory and file-level permissions through Windows File Explorer. This requires domain name and domain GUID for your on-premises AD in this step.
+   
    ![image](https://user-images.githubusercontent.com/96280581/188254639-26e8ee2f-5025-4d20-82df-e8def1d91c6b.png)
+
+![image](https://user-images.githubusercontent.com/96280581/190551484-5a496a94-c3f9-4d0b-8c20-b851e0b56884.png)
+
+![image](https://user-images.githubusercontent.com/96280581/190551847-996885a0-0623-4134-b1c3-9d4080c208c7.png)
+
 
 ### Step
