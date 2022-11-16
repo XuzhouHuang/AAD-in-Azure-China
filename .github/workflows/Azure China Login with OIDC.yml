@@ -1,7 +1,10 @@
 # File: .github/workflows/OIDC_workflow.yml
 
 name: Run Azure China Login with OIDC
-on: [push]
+on: 
+      push: 
+            tags: 
+                  - Mooncake
 
 permissions:
       id-token: write
@@ -10,7 +13,7 @@ permissions:
 jobs: 
   Windows-latest:
       runs-on: windows-latest
-      environment: WorkloadIdentityFederation
+      # environment: WorkloadIdentityFederation
       steps:
         - name: OIDC Login to Azure China Cloud with AzPowershell (enableAzPSSession true)
           uses: azure/login@v1
