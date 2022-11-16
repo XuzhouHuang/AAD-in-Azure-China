@@ -1,6 +1,6 @@
 # File: .github/workflows/OIDC_workflow.yml
 
-name: Run Azure Login with OIDC
+name: AZ CLI - Run Azure China Login with OIDC
 on: [push]
 
 permissions:
