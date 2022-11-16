@@ -1,6 +1,6 @@
 # File: .github/workflows/OIDC_workflow.yml
 
-name: Run Azure China Login with OIDC
+name: Powershell - Run Azure China Login with OIDC
 on: [push]
 
 permissions:
@@ -18,8 +18,8 @@ jobs:
             client-id: ${{ secrets.AZURE_CLIENT_ID }}
             tenant-id: ${{ secrets.AZURE_TENANT_ID }}
             subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }} 
-            environment: 'AzureChinaCloud'
             enable-AzPSSession: true
+            environment: 'AzureChinaCloud'
 
         - name: 'Get RG with powershell action'
           uses: azure/powershell@v1
