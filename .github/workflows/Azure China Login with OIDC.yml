@@ -15,9 +15,9 @@ jobs:
         - name: OIDC Login to Azure China Cloud with AzPowershell (enableAzPSSession true)
           uses: azure/login@v1
           with:
-            client-id: ${{ secrets.AZURE_CLIENT_ID }}
-            tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-            subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }} 
+            client-id: '2b84c7e3-0a42-4dd4-9eff-fe9029611a49'
+            tenant-id: '97195526-9d7c-4cd8-90b1-36faa3980a03'
+            subscription-id: '7dda9f57-8fa0-4c2f-a5b7-5b3170cdfbfa'
             enable-AzPSSession: true
             environment: 'AzureChinaCloud'
 
