@@ -20,6 +20,7 @@ jobs:
             subscription-id: '7dda9f57-8fa0-4c2f-a5b7-5b3170cdfbfa'
             enable-AzPSSession: true
             environment: 'AzureChinaCloud'
+            allow-no-subscriptions: true
 
         - name: 'Get RG with powershell action'
           uses: azure/powershell@v1
