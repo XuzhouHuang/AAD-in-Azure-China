@@ -42,11 +42,6 @@ Get-MgContext
 #	TokenCredentialType: 'Client Secret' Since we are using a client secret
 
 # Run the MS Graph API call
-# Example, replace the GUID at the end with a Intune Device Id from your tenant:
-
-Invoke-MgGraphRequest -Method GET https://graph.microsoft.com/beta/devicemanagement/manageddevices/925debfb-3e64-4ef3-ac9d-f23780877623
-
-# Results should return information on device 925debfb-3e64-4ef3-ac9d-f23780877623
 
 # Close the connection
 Disconnect-MgGraph
@@ -61,7 +56,7 @@ Import-Module PKI
 
 # Define the parameters for the certificate
 $certSubject = "CN=xuhuanGraphAppCert"  # Change this to the desired certificate name
-$certPath = "D:\OneDrive - Microsoft\01 - Workspace\AAD-cert\mooncake\xuhuanGraphAppCert.pfx"  # Path where you want to save the certificate file
+$certPath = "<path>"  # Path where you want to save the certificate file
 $certPassword = ConvertTo-SecureString "Password123!" -AsPlainText -Force  # Password to secure the PFX file
 
 # Generate the self-signed certificate
