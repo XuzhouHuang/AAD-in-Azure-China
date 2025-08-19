@@ -19,9 +19,9 @@ Click Application permission. Search on the permissions you need for the graph A
 
 ```
 # Replace the <CLIENT_SECRET_VALUE>, <TENANT_ID>, <CLIENT_ID> with your values
-$ClientSecret = "9gngs3HsnMYA6TsDt~Dd_G.39JD~u-2TJU"
-$TenantId = "954ddad8-66d7-47a8-8f9f-1316152d9587"
-$ClientId = "9b2e0179-6b89-4bfb-83b6-58236d2f6f91"
+$ClientSecret = "<CLIENT_SECRET_VALUE>"
+$TenantId = "<TENANT_ID>"
+$ClientId = "<CLIENT_ID>"
 
 # Convert the Client Secret to a Secure String
 $SecureClientSecret = ConvertTo-SecureString -String $ClientSecret -AsPlainText -Force
